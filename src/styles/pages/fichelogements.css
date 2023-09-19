@@ -1,0 +1,140 @@
+.Carousel-logement {
+    max-width: 1440px;
+    margin: 50px auto;
+}
+.Carousel>img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.Carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Carousel-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.numberOfPictures p {
+    color : #fff;
+    position: relative;
+    top: -30px;
+}
+.fa-chevron-left, .fa-chevron-right {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.fa-chevron-left {
+    position: relative;
+    left: 50px;
+}
+.fa-chevron-right {
+    position: relative;
+    right: 50px;
+}
+
+.Carousel-logement-content h1, .Carousel-logement-content p {
+    color : #FF6060;
+}
+.Carousel-logement-content h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hostName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+.flex-column1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flex img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.tags {
+    display: flex;
+    gap: 10px;
+}
+.tags p {
+    box-sizing: border-box;
+    background-color: #FF6060;
+    color: #fff;
+}
+
+.flex-container3 {
+    display: flex;
+    gap: 73px;
+    width: 100%;
+}
+.collapse {
+    width: 100%;
+    transition: all 1.5s ease-in-out;
+}
+.collapse h2 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #ff6060;
+    align-items: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+}
+.collapse p {
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 18px;
+    line-height: 25.67px;
+    color: #FF6060;
+}
+.collapse ul {
+    list-style: none;
+    background-color: #f6f6f6;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.collapse ul li {
+    color: #FF6060;
+    font-size: 18px;
+    line-height: 25.67px;
+}
+.fa-solid.fa-star {
+    color: #FF6060;
+    padding-right: 5px;
+    font-size: 24px;
+}
+.fa-regular.fa-star {
+    color: #E3E3E3;
+    padding-right: 5px;
+    font-size: 24px;
+}

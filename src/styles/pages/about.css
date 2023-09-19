@@ -1,0 +1,24 @@
+.pageAbout {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.overlay2 {
+    background-image: url(/mountain.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 223px;
+    position: relative;
+}
+.collapseAbout {
+    display: grid;
+    grid-gap: 25px;
+    max-width: 1200px;
+    margin: 50px auto;
+}

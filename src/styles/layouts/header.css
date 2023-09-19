@@ -1,0 +1,25 @@
+header {
+    max-width: 1440px;
+    margin: 45px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    max-width: 100%;
+}
+header nav {
+    display: flex;
+    gap: 57px;
+}
+header nav a {
+    color: #FF6060;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+header nav a.active {
+    text-decoration: underline;
+}
